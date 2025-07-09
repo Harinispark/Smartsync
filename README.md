@@ -42,3 +42,14 @@ Based on the **last digit** of the card number:
 - **Vanilla JavaScript**
 
 ---
+🔮 Future Enhancements
+As a passionate developer and metro technology enthusiast, I aim to evolve this project beyond simulation and bring it closer to real-world applications:
+
+🚇 Real-Time Data Integration
+Connect with official metro APIs or backend services to fetch live card balance and transaction history for genuine functionality.
+
+📲 Mobile-Friendly PWA
+Convert the system into a Progressive Web App (PWA) so commuters can easily check card status on the go—offline and online.
+
+🧠 Smart Analytics Dashboard
+Implement an admin dashboard to monitor card usage, recharge patterns, and gate entry anomalies for better metro insights.
