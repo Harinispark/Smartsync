@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SmartSync - Metro Card Checker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">🚇 SmartSync - Metro Card Checker</h1>
+
+    <div class="card-machine">
+      <label for="cardNumber">Enter Metro Card Number</label>
+      <input
+        type="text"
+        id="cardNumber"
+        maxlength="9"
+        placeholder="e.g., 991234567"
+        oninput="this.value = this.value.replace(/[^0-9]/g, '')"
+      />
+      <button onclick="checkStatus()">Check Status</button>
+    </div>
+
+    <div class="result-card hidden" id="result">
+      <h2>Card Details</h2>
+      <p><strong>Card Number:</strong> <span id="cardOut"></span></p>
+      <p><strong>Available Balance:</strong> ₹<span id="balance"></span></p>
+      <p><strong>Status:</strong> <span id="syncStatus"></span></p>
+      <p id="warning" class="warning-text"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
