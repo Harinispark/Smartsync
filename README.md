@@ -21,8 +21,15 @@ Based on the **last digit** of the card number:
 
 | Last Digit    | Status                  | Balance     | Message                         |
 
+
 | 0, 2, 4, 6, 8 | ✅ Recharge Successful | ₹100–₹200   | Good to go!                      |
+
+
+
 | 1, 3, 5       | ⏳ Recharge Pending    | ₹0          | Please recharge.                 |
+
+
+
 | 7, 9          | ⚠️ Low Balance         | ₹10–₹30     | Recharge soon to continue trips. |
 
 > **❗ Invalid Card Rule**: If **any digit appears more than twice**, the card is considered **invalid**.
